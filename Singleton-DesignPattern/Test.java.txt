@@ -1,0 +1,17 @@
+public class Test
+{
+ public static void main(String args[])
+  {
+    //Create multiple objects
+    // and Print Hashcode
+	{
+	 Employee e1=Employee.getEmpob();
+	 Employee e2=Employee.getEmpob();
+	 Employee e3=Employee.getEmpob();
+	 
+	System.out.println(e1.hashcode());
+	System.out.println(e2.hashcode());
+	System.out.println(e3.hashcode());
+	}
+  }
+}

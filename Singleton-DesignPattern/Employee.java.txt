@@ -1,0 +1,15 @@
+public class Employee
+{
+ private static Employee e=null;
+  private Employee
+  {
+  }
+   public static Employee getEmpob()
+    {
+      if(e==null)
+	{
+	  e=new Employee();
+	}
+	 return e;
+    }
+}

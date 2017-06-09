@@ -5,8 +5,13 @@
   	<servlet-name>sample</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
+  
+  <context-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/sample-servlet.xml</param-value>
+        </context-param>
   <servlet-mapping>
   	<servlet-name>sample</servlet-name>
-  	<url-pattern>/mvc/</url-pattern>
+  	<url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
